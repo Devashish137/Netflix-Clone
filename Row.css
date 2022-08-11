@@ -16,8 +16,15 @@
   max-height: 100px;
   margin-right: 10px;
   transition: transform 450ms;
-  
-
+  height: 100%;
+  border-radius: 5px;
+  min-height: 0;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    transition: all 450ms;
+    transform: center left;
 
 }
 .row_poster:hover{
@@ -28,5 +35,5 @@
   max-height: 250px;
 }
 .row_posterlarge:hover{
-  transform: scale(1.09);
+  transform: scale(1.1);
 }
